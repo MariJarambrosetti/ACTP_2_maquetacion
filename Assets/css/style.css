@@ -23,8 +23,8 @@ h1 {
 	background-image: url(../img/post-image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 28vw;
-	padding-bottom: 28vw;
+	padding-top: 20vw;
+	padding-bottom: 20vw;
 	text-align: center;
 }
 
@@ -32,8 +32,11 @@ h1 {
 	margin: 0 auto;
 	color: white;
 	font-weight: bold;
-	font-size: 5em;
+	font-style: italic;
+	font-size: 6em;
 	max-width: 800px;
+	padding: 0 2vw;
+
 }
 
 /*Post*/
