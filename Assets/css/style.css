@@ -89,6 +89,15 @@ a:focus, a:hover {
 	padding: 0.4vw;
 }
 
+.post_text_icon {
+	color: #ffffff;
+	background-color: #6c6e70;
+	font-size: 1.5em; 
+	margin: 2vw 1vw;
+	padding: 1vw;
+	border-radius: 3vw;
+}
+
 /*Author*/
 
 /*Footer*/
