@@ -24,7 +24,7 @@ a:focus, a:hover {
 
 .navbar_barberia {
 	margin-bottom: 0px;
-	background-color: black;
+	background-color: #121619;
 	border:0;
 	border-radius: 0;
 }
@@ -178,3 +178,14 @@ a:focus, a:hover {
 
 
 /*Footer*/
+
+footer {
+	background-color: #121619;
+	padding: 4vw;
+}
+
+.footer_logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 7%;
+}
