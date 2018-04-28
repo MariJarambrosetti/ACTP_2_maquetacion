@@ -152,4 +152,29 @@ a:focus, a:hover {
 	position: relative;
 	bottom: -3vw;
 }
+
+/*Post Related*/
+
+.related {
+	background-color: #d1d1d1;
+	padding: 2vw;
+}
+
+.related_right {
+	text-align: left;
+}
+
+.related_left {
+	text-align: right;
+}
+
+.related_left p , .related_right p {
+	font-size: 1.5em;
+}
+
+.related_right i, .related_left i {
+	color: #6c6e70;
+}
+
+
 /*Footer*/
