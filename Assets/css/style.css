@@ -1,12 +1,13 @@
 /*Generales*/
 
-h1, h3, h4 {
+h1, h3, h4, h2{
 	font-family: 'Playfair Display', serif;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
 	color: #5b5b5b;
+	line-height: 2em;
 }
 
 a {
@@ -98,6 +99,57 @@ a:focus, a:hover {
 	border-radius: 3vw;
 }
 
+.post_text {
+	margin-bottom: 5vw;
+}
+
 /*Author*/
 
+.author {
+	border: 1px solid #d1d1d1;
+	padding: 3vw;
+}
+
+.author_photo img {
+	border-radius: 50%;
+	padding-left: 4vw;
+}
+
+.author_photo {
+	padding: 0;
+	margin-left: 11vw;
+}
+
+.author_bio {
+	padding: 5vw 12vw 0 0;
+}
+
+.author_info {
+	padding: 4vw 0 0 0;
+}
+
+.author_info h2 {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.author_info p {
+	font-size: 1.2em;
+	line-height: 1em;
+}
+
+.author_icon {
+	text-align: center;
+}
+
+.author_icon i {
+	background-color: white;
+	padding: 2vw;
+	border:1px solid #d1d1d1;
+	border-radius: 50%;
+	font-size: 2em;
+	color: #6c6e70;
+	position: relative;
+	bottom: -3vw;
+}
 /*Footer*/
