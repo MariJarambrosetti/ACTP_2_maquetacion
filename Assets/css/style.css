@@ -133,7 +133,6 @@ a:focus, a:hover {
 		font-size: 1em;
 		padding: 2vw;
 		border-radius: 5vw;
-
 	}
 }
 
@@ -189,6 +188,38 @@ a:focus, a:hover {
 	position: relative;
 	bottom: -3vw;
 }
+
+@media only screen and (max-width: 767px){
+	.author_icon i {
+		font-size: 1.5em;
+		bottom: -7vw;
+	}
+
+	.author_photo {
+		display: block;
+		margin: auto;
+	}
+
+	.author_photo img {
+		padding: 10vw;
+		max-width: 70%;
+		margin-left: 14vw;
+	}
+
+	.author_info {
+		text-align: center;
+		padding-top: 0;
+	}
+
+	.author_info h2 {
+		margin-top: 0;
+	}
+
+	.author_bio {
+		padding: 5vw 12vw 0 12vw;
+	}
+}
+
 
 /*Post Related*/
 
