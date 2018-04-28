@@ -218,6 +218,7 @@ a:focus, a:hover {
 	.author_bio {
 		padding: 5vw 12vw 0 12vw;
 	}
+
 }
 
 
@@ -228,20 +229,48 @@ a:focus, a:hover {
 	padding: 2vw;
 }
 
-.related_right {
-	text-align: left;
-}
-
-.related_left {
-	text-align: right;
-}
 
 .related_left p , .related_right p {
-	font-size: 1.5em;
+	font-size: 1.2em;
+	text-align: center;
 }
 
 .related_right i, .related_left i {
 	color: #6c6e70;
+	font-size: 2em;
+}
+
+.related_left_text {
+	padding-left: 0;
+}
+
+.related_right_text {
+	padding-right: 0;
+}
+
+.related_left_icon {
+	padding-right: 0;
+	text-align: right;
+}
+
+.related_right_icon {
+	padding-left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.related_left p , .related_right p {
+		display: none;
+	}
+
+	.related_right_icon, .related_left_icon {
+		text-align: center;
+	}
+
+	.related {
+		padding: 7vw;
+	}	
+
 }
 
 
@@ -256,4 +285,15 @@ footer {
 	display: block;
 	margin: 0 auto;
 	max-width: 7%;
+}
+
+@media only screen and (max-width: 767px){
+	.footer_logo {
+		max-width: 30%;
+	}
+
+	footer {
+		padding:10vw;
+	}
+
 }
