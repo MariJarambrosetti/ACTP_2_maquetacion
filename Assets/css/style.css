@@ -1,6 +1,6 @@
 /*Generales*/
 
-h1, h3, h4, h2{
+h1, h3, h4, h2, h5 {
 	font-family: 'Playfair Display', serif;
 }
 
@@ -19,12 +19,6 @@ a:focus, a:hover {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 767px) {
-	p {
-		line-height: 1.5em;
-	}
-
-}
 
 
 /*Nav*/
@@ -123,6 +117,28 @@ a:focus, a:hover {
 .post_text {
 	margin-bottom: 5vw;
 }
+
+@media only screen and (max-width: 767px) {
+
+	.post_date {
+		text-align: center;
+		margin: 8vw 0;
+	}
+
+	.post_date_icon {
+		padding: 2vw;
+	}
+
+	.post_text_icon {
+		font-size: 1em;
+		padding: 2vw;
+		border-radius: 5vw;
+
+	}
+}
+
+
+
 
 /*Author*/
 
